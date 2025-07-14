@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="carrito-icono">
+            <span id="carrito-contador">0</span>
+            <svg viewBox="0 0 16 16" class="bi bi-cart-check" height="24" width="24" xmlns="http://www.w3.org/2000/svg" fill="#fff">
+            </path>
+            
+            <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"></path>
+          </svg>
+          <a href="carrito.html">Carrito</a>
+            
+
+        </div>
+    </header>
+    <main >
+        <h2 class="titulo-categoria">Autos</h2>
+        <section class="Productos Auto">
+            <div class="card">
+                <img src="91OzH7vEVwL._AC_SX679_.jpg" alt="">
+                <h2>Parlantes 6.5 pulgadas</h2>
+                <p>Descripcion del producto</p>
+                <span class="precio">$1000</span>
+                <button>Agregar al carrito</button>
+            </div>
+            <div class="card">
+                <img src="D_NQ_NP_2X_756051-MLM53255960928_012023-F-h4-kit-de-faros-led-auto-20000lm-para-luz-alta-y-baja.jpg" alt="">
+                <h2>H4 18000Lm</h2>
+                <p>Descripcion del producto</p>
+                <span class="precio">$23.000</span>
+                <button>Agregar al carrito</button>
+            </div>
+
+            <div class="card">
+                <img src="img/h4.jpg" alt="">
+                <h2>Gomas para piso auto </h2>
+                <p>Descripcion del producto</p>
+                <span class="precio">$10.000</span>
+                <button>Agregar al carrito</button>
+            </div>
+
+            <div class="card">
+                <img src="" alt="">
+                <h2>Producto 1</h2>
+                <p>Descripcion del producto</p>
+                <span class="precio">$100</span>
+                <button>Agregar al carrito</button>
+            </div>
+
+            <div class="card">
+                <img src="" alt="">
+                <h2>Producto 1</h2>
+                <p>Descripcion del producto</p>
+                <span class="precio">$100</span>
+                <button>Agregar al carrito</button>
+            </div>
+
+            <div class="card">
+                <img src="" alt="">
+                <h2>Producto 1</h2>
+                <p>Descripcion del producto</p>
+                <span class="precio">$100</span>
+                <button>Agregar al carrito</button>
+            </div>
+
+        </section>
+
+
+
+        <h2 class="titulo-categoria">Casas</h2>
+        <section class="Productos Casa">
+            <div class="card">
+                <img src="" alt="">
+                <h2>Producto 1</h2>
+                <p>Descripcion del producto</p>
+                <span class="precio">$100</span>
+                <button>Agregar al carrito</button>
+            </div>
+            <div class="card">
+                <img src="" alt="">
+                <h2>Producto 1</h2>
+                <p>Descripcion del producto</p>
+                <span class="precio">$100</span>
+                <button>Agregar al carrito</button>
+            </div>
+
+            <div class="card">
+                <img src="" alt="">
+                <h2>Producto 1</h2>
+                <p>Descripcion del producto</p>
+                <span class="precio">$100</span>
+                <button>Agregar al carrito</button>
+            </div>
+
+            <div class="card">
+                <img src="" alt="">
+                <h2>Producto 1</h2>
+                <p>Descripcion del producto</p>
+                <span class="precio">$100</span>
+                <button>Agregar al carrito</button>
+            </div>
+
+            <div class="card">
+                <img src="" alt="">
+                <h2>Producto 1</h2>
+                <p>Descripcion del producto</p>
+                <span class="precio">$100</span>
+                <button>Agregar al carrito</button>
+            </div>
+
+            <div class="card">
+                <img src="" alt="">
+                <h2>Producto 1</h2>
+                <p>Descripcion del producto</p>
+                <span class="precio">$100</span>
+                <button>Agregar al carrito</button>
+            </div>
+
+        </section>
+    </main>
+
+   
+
+    <script src="carrito.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          document.querySelectorAll('.ver-video').forEach(boton => {
+            boton.addEventListener('click', function() {
+              const url = this.getAttribute('data-video');
+              if (url) {
+                window.open(url, '_blank');
+              }
+            });
+          });
+        });
+    </script>
+</body>
+
+</html>
